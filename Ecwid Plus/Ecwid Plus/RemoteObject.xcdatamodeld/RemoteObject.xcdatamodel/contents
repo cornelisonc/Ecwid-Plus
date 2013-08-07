@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="3381.3" systemVersion="12E55" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
-    <entity name="Order" parentEntity="RemoteEntity" syncable="YES">
+    <entity name="Order" representedClassName="Order" parentEntity="RemoteEntity" syncable="YES">
         <attribute name="number" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="paymentStatus" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="shippingMethod" optional="YES" attributeType="String" syncable="YES"/>
         <relationship name="personOrder" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Person" inverseName="orderPerson" inverseEntity="Person" syncable="YES"/>
     </entity>
-    <entity name="Person" parentEntity="RemoteEntity" syncable="YES">
+    <entity name="Person" representedClassName="Person" parentEntity="RemoteEntity" syncable="YES">
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="phone" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="street" optional="YES" attributeType="String" syncable="YES"/>
@@ -17,8 +17,8 @@
         <attribute name="updatedAt" optional="YES" attributeType="Date" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Order" positionX="-234" positionY="-0" width="128" height="103"/>
-        <element name="Person" positionX="88" positionY="11" width="128" height="103"/>
-        <element name="RemoteEntity" positionX="-83" positionY="-144" width="128" height="75"/>
+        <element name="Order" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="Person" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="RemoteEntity" positionX="0" positionY="0" width="0" height="0"/>
     </elements>
 </model>
