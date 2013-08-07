@@ -2,7 +2,7 @@
 //  main.m
 //  Ecwid Plus
 //
-//  Created by Ceili Cornelison on 8/6/13.
+//  Created by Ceili Cornelison on 8/7/13.
 //  Copyright (c) 2013 ceili. All rights reserved.
 //
 

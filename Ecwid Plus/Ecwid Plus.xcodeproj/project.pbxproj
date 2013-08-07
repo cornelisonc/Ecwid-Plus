@@ -7,184 +7,161 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A37B8DBCF44A46FD86014B4A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 28468809C33842D7BF4F87AF /* libPods.a */; };
-		A7D097C517B1B4D1000DD487 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7D097C417B1B4D1000DD487 /* Foundation.framework */; };
-		A7D097C717B1B4D1000DD487 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7D097C617B1B4D1000DD487 /* CoreGraphics.framework */; };
-		A7D097C917B1B4D1000DD487 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7D097C817B1B4D1000DD487 /* UIKit.framework */; };
-		A7D097CB17B1B4D1000DD487 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7D097CA17B1B4D1000DD487 /* CoreData.framework */; };
-		A7D097D117B1B4D1000DD487 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A7D097CF17B1B4D1000DD487 /* InfoPlist.strings */; };
-		A7D097D317B1B4D1000DD487 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7D097D217B1B4D1000DD487 /* main.m */; };
-		A7D097D717B1B4D1000DD487 /* EPLUSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7D097D617B1B4D1000DD487 /* EPLUSAppDelegate.m */; };
-		A7D097DA17B1B4D1000DD487 /* Ecwid_Plus.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A7D097D817B1B4D1000DD487 /* Ecwid_Plus.xcdatamodeld */; };
-		A7D097DC17B1B4D1000DD487 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7D097DB17B1B4D1000DD487 /* Images.xcassets */; };
-		A7D097E317B1B4D1000DD487 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7D097E217B1B4D1000DD487 /* XCTest.framework */; };
-		A7D097E417B1B4D1000DD487 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7D097C417B1B4D1000DD487 /* Foundation.framework */; };
-		A7D097E517B1B4D1000DD487 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7D097C817B1B4D1000DD487 /* UIKit.framework */; };
-		A7D097E617B1B4D1000DD487 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7D097CA17B1B4D1000DD487 /* CoreData.framework */; };
-		A7D097EE17B1B4D1000DD487 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A7D097EC17B1B4D1000DD487 /* InfoPlist.strings */; };
-		A7D097F017B1B4D1000DD487 /* Ecwid_PlusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A7D097EF17B1B4D1000DD487 /* Ecwid_PlusTests.m */; };
+		A7F7226A17B2865600FF3FD6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7F7226917B2865600FF3FD6 /* Foundation.framework */; };
+		A7F7226C17B2865600FF3FD6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7F7226B17B2865600FF3FD6 /* CoreGraphics.framework */; };
+		A7F7226E17B2865600FF3FD6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7F7226D17B2865600FF3FD6 /* UIKit.framework */; };
+		A7F7227417B2865600FF3FD6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A7F7227217B2865600FF3FD6 /* InfoPlist.strings */; };
+		A7F7227617B2865600FF3FD6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F7227517B2865600FF3FD6 /* main.m */; };
+		A7F7227A17B2865600FF3FD6 /* EPLUSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F7227917B2865600FF3FD6 /* EPLUSAppDelegate.m */; };
+		A7F7227D17B2865600FF3FD6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7F7227B17B2865600FF3FD6 /* Main.storyboard */; };
+		A7F7228017B2865600FF3FD6 /* EPLUSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F7227F17B2865600FF3FD6 /* EPLUSViewController.m */; };
+		A7F7228217B2865600FF3FD6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7F7228117B2865600FF3FD6 /* Images.xcassets */; };
+		A7F7228917B2865600FF3FD6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7F7228817B2865600FF3FD6 /* XCTest.framework */; };
+		A7F7228A17B2865600FF3FD6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7F7226917B2865600FF3FD6 /* Foundation.framework */; };
+		A7F7228B17B2865600FF3FD6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7F7226D17B2865600FF3FD6 /* UIKit.framework */; };
+		A7F7229317B2865600FF3FD6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A7F7229117B2865600FF3FD6 /* InfoPlist.strings */; };
+		A7F7229517B2865600FF3FD6 /* Ecwid_PlusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F7229417B2865600FF3FD6 /* Ecwid_PlusTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A7D097E717B1B4D1000DD487 /* PBXContainerItemProxy */ = {
+		A7F7228C17B2865600FF3FD6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = A7D097B917B1B4D1000DD487 /* Project object */;
+			containerPortal = A7F7225E17B2865600FF3FD6 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A7D097C017B1B4D1000DD487;
+			remoteGlobalIDString = A7F7226517B2865600FF3FD6;
 			remoteInfo = "Ecwid Plus";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		28468809C33842D7BF4F87AF /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		885C03CAE84147D9AD17CF3E /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
-		A7D097C117B1B4D1000DD487 /* Ecwid Plus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ecwid Plus.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A7D097C417B1B4D1000DD487 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		A7D097C617B1B4D1000DD487 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		A7D097C817B1B4D1000DD487 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		A7D097CA17B1B4D1000DD487 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		A7D097CE17B1B4D1000DD487 /* Ecwid Plus-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ecwid Plus-Info.plist"; sourceTree = "<group>"; };
-		A7D097D017B1B4D1000DD487 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		A7D097D217B1B4D1000DD487 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A7D097D417B1B4D1000DD487 /* Ecwid Plus-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ecwid Plus-Prefix.pch"; sourceTree = "<group>"; };
-		A7D097D517B1B4D1000DD487 /* EPLUSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EPLUSAppDelegate.h; sourceTree = "<group>"; };
-		A7D097D617B1B4D1000DD487 /* EPLUSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EPLUSAppDelegate.m; sourceTree = "<group>"; };
-		A7D097D917B1B4D1000DD487 /* Ecwid_Plus.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Ecwid_Plus.xcdatamodel; sourceTree = "<group>"; };
-		A7D097DB17B1B4D1000DD487 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		A7D097E117B1B4D1000DD487 /* Ecwid PlusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ecwid PlusTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A7D097E217B1B4D1000DD487 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		A7D097EB17B1B4D1000DD487 /* Ecwid PlusTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ecwid PlusTests-Info.plist"; sourceTree = "<group>"; };
-		A7D097ED17B1B4D1000DD487 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		A7D097EF17B1B4D1000DD487 /* Ecwid_PlusTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ecwid_PlusTests.m; sourceTree = "<group>"; };
-		A7F7225917B1C5AD00FF3FD6 /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
-		A7F7225B17B1C66700FF3FD6 /* EPLUSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EPLUSViewController.h; sourceTree = "<group>"; };
-		A7F7225C17B1C66700FF3FD6 /* EPLUSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EPLUSViewController.m; sourceTree = "<group>"; };
+		A7F7226617B2865600FF3FD6 /* Ecwid Plus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ecwid Plus.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7F7226917B2865600FF3FD6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A7F7226B17B2865600FF3FD6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A7F7226D17B2865600FF3FD6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A7F7227117B2865600FF3FD6 /* Ecwid Plus-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ecwid Plus-Info.plist"; sourceTree = "<group>"; };
+		A7F7227317B2865600FF3FD6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A7F7227517B2865600FF3FD6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A7F7227717B2865600FF3FD6 /* Ecwid Plus-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ecwid Plus-Prefix.pch"; sourceTree = "<group>"; };
+		A7F7227817B2865600FF3FD6 /* EPLUSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EPLUSAppDelegate.h; sourceTree = "<group>"; };
+		A7F7227917B2865600FF3FD6 /* EPLUSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EPLUSAppDelegate.m; sourceTree = "<group>"; };
+		A7F7227C17B2865600FF3FD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A7F7227E17B2865600FF3FD6 /* EPLUSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EPLUSViewController.h; sourceTree = "<group>"; };
+		A7F7227F17B2865600FF3FD6 /* EPLUSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EPLUSViewController.m; sourceTree = "<group>"; };
+		A7F7228117B2865600FF3FD6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A7F7228717B2865600FF3FD6 /* Ecwid PlusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ecwid PlusTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7F7228817B2865600FF3FD6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A7F7229017B2865600FF3FD6 /* Ecwid PlusTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ecwid PlusTests-Info.plist"; sourceTree = "<group>"; };
+		A7F7229217B2865600FF3FD6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A7F7229417B2865600FF3FD6 /* Ecwid_PlusTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ecwid_PlusTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A7D097BE17B1B4D1000DD487 /* Frameworks */ = {
+		A7F7226317B2865600FF3FD6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7D097C717B1B4D1000DD487 /* CoreGraphics.framework in Frameworks */,
-				A7D097CB17B1B4D1000DD487 /* CoreData.framework in Frameworks */,
-				A7D097C917B1B4D1000DD487 /* UIKit.framework in Frameworks */,
-				A7D097C517B1B4D1000DD487 /* Foundation.framework in Frameworks */,
-				A37B8DBCF44A46FD86014B4A /* libPods.a in Frameworks */,
+				A7F7226C17B2865600FF3FD6 /* CoreGraphics.framework in Frameworks */,
+				A7F7226E17B2865600FF3FD6 /* UIKit.framework in Frameworks */,
+				A7F7226A17B2865600FF3FD6 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A7D097DE17B1B4D1000DD487 /* Frameworks */ = {
+		A7F7228417B2865600FF3FD6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7D097E317B1B4D1000DD487 /* XCTest.framework in Frameworks */,
-				A7D097E617B1B4D1000DD487 /* CoreData.framework in Frameworks */,
-				A7D097E517B1B4D1000DD487 /* UIKit.framework in Frameworks */,
-				A7D097E417B1B4D1000DD487 /* Foundation.framework in Frameworks */,
+				A7F7228917B2865600FF3FD6 /* XCTest.framework in Frameworks */,
+				A7F7228B17B2865600FF3FD6 /* UIKit.framework in Frameworks */,
+				A7F7228A17B2865600FF3FD6 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A7D097B817B1B4D1000DD487 = {
+		A7F7225D17B2865600FF3FD6 = {
 			isa = PBXGroup;
 			children = (
-				A7F7225917B1C5AD00FF3FD6 /* Storyboard.storyboard */,
-				A7D097CC17B1B4D1000DD487 /* Ecwid Plus */,
-				A7D097E917B1B4D1000DD487 /* Ecwid PlusTests */,
-				A7D097C317B1B4D1000DD487 /* Frameworks */,
-				A7D097C217B1B4D1000DD487 /* Products */,
-				885C03CAE84147D9AD17CF3E /* Pods.xcconfig */,
+				A7F7226F17B2865600FF3FD6 /* Ecwid Plus */,
+				A7F7228E17B2865600FF3FD6 /* Ecwid PlusTests */,
+				A7F7226817B2865600FF3FD6 /* Frameworks */,
+				A7F7226717B2865600FF3FD6 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		A7D097C217B1B4D1000DD487 /* Products */ = {
+		A7F7226717B2865600FF3FD6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A7D097C117B1B4D1000DD487 /* Ecwid Plus.app */,
-				A7D097E117B1B4D1000DD487 /* Ecwid PlusTests.xctest */,
+				A7F7226617B2865600FF3FD6 /* Ecwid Plus.app */,
+				A7F7228717B2865600FF3FD6 /* Ecwid PlusTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A7D097C317B1B4D1000DD487 /* Frameworks */ = {
+		A7F7226817B2865600FF3FD6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A7D097C417B1B4D1000DD487 /* Foundation.framework */,
-				A7D097C617B1B4D1000DD487 /* CoreGraphics.framework */,
-				A7D097C817B1B4D1000DD487 /* UIKit.framework */,
-				A7D097CA17B1B4D1000DD487 /* CoreData.framework */,
-				A7D097E217B1B4D1000DD487 /* XCTest.framework */,
-				28468809C33842D7BF4F87AF /* libPods.a */,
+				A7F7226917B2865600FF3FD6 /* Foundation.framework */,
+				A7F7226B17B2865600FF3FD6 /* CoreGraphics.framework */,
+				A7F7226D17B2865600FF3FD6 /* UIKit.framework */,
+				A7F7228817B2865600FF3FD6 /* XCTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		A7D097CC17B1B4D1000DD487 /* Ecwid Plus */ = {
+		A7F7226F17B2865600FF3FD6 /* Ecwid Plus */ = {
 			isa = PBXGroup;
 			children = (
-				A7F7225A17B1C63B00FF3FD6 /* View Controllers */,
-				A7D097D517B1B4D1000DD487 /* EPLUSAppDelegate.h */,
-				A7D097D617B1B4D1000DD487 /* EPLUSAppDelegate.m */,
-				A7D097DB17B1B4D1000DD487 /* Images.xcassets */,
-				A7D097D817B1B4D1000DD487 /* Ecwid_Plus.xcdatamodeld */,
-				A7D097CD17B1B4D1000DD487 /* Supporting Files */,
+				A7F7227817B2865600FF3FD6 /* EPLUSAppDelegate.h */,
+				A7F7227917B2865600FF3FD6 /* EPLUSAppDelegate.m */,
+				A7F7227B17B2865600FF3FD6 /* Main.storyboard */,
+				A7F7227E17B2865600FF3FD6 /* EPLUSViewController.h */,
+				A7F7227F17B2865600FF3FD6 /* EPLUSViewController.m */,
+				A7F7228117B2865600FF3FD6 /* Images.xcassets */,
+				A7F7227017B2865600FF3FD6 /* Supporting Files */,
 			);
 			path = "Ecwid Plus";
 			sourceTree = "<group>";
 		};
-		A7D097CD17B1B4D1000DD487 /* Supporting Files */ = {
+		A7F7227017B2865600FF3FD6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				A7D097CE17B1B4D1000DD487 /* Ecwid Plus-Info.plist */,
-				A7D097CF17B1B4D1000DD487 /* InfoPlist.strings */,
-				A7D097D217B1B4D1000DD487 /* main.m */,
-				A7D097D417B1B4D1000DD487 /* Ecwid Plus-Prefix.pch */,
+				A7F7227117B2865600FF3FD6 /* Ecwid Plus-Info.plist */,
+				A7F7227217B2865600FF3FD6 /* InfoPlist.strings */,
+				A7F7227517B2865600FF3FD6 /* main.m */,
+				A7F7227717B2865600FF3FD6 /* Ecwid Plus-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		A7D097E917B1B4D1000DD487 /* Ecwid PlusTests */ = {
+		A7F7228E17B2865600FF3FD6 /* Ecwid PlusTests */ = {
 			isa = PBXGroup;
 			children = (
-				A7D097EF17B1B4D1000DD487 /* Ecwid_PlusTests.m */,
-				A7D097EA17B1B4D1000DD487 /* Supporting Files */,
+				A7F7229417B2865600FF3FD6 /* Ecwid_PlusTests.m */,
+				A7F7228F17B2865600FF3FD6 /* Supporting Files */,
 			);
 			path = "Ecwid PlusTests";
 			sourceTree = "<group>";
 		};
-		A7D097EA17B1B4D1000DD487 /* Supporting Files */ = {
+		A7F7228F17B2865600FF3FD6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				A7D097EB17B1B4D1000DD487 /* Ecwid PlusTests-Info.plist */,
-				A7D097EC17B1B4D1000DD487 /* InfoPlist.strings */,
+				A7F7229017B2865600FF3FD6 /* Ecwid PlusTests-Info.plist */,
+				A7F7229117B2865600FF3FD6 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		A7F7225A17B1C63B00FF3FD6 /* View Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				A7F7225B17B1C66700FF3FD6 /* EPLUSViewController.h */,
-				A7F7225C17B1C66700FF3FD6 /* EPLUSViewController.m */,
-			);
-			name = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A7D097C017B1B4D1000DD487 /* Ecwid Plus */ = {
+		A7F7226517B2865600FF3FD6 /* Ecwid Plus */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A7D097F317B1B4D1000DD487 /* Build configuration list for PBXNativeTarget "Ecwid Plus" */;
+			buildConfigurationList = A7F7229817B2865600FF3FD6 /* Build configuration list for PBXNativeTarget "Ecwid Plus" */;
 			buildPhases = (
-				E1EBAE739A7C4E6A897E24D9 /* Check Pods Manifest.lock */,
-				A7D097BD17B1B4D1000DD487 /* Sources */,
-				A7D097BE17B1B4D1000DD487 /* Frameworks */,
-				A7D097BF17B1B4D1000DD487 /* Resources */,
-				D3E479CA7B2E4BB6BE651850 /* Copy Pods Resources */,
+				A7F7226217B2865600FF3FD6 /* Sources */,
+				A7F7226317B2865600FF3FD6 /* Frameworks */,
+				A7F7226417B2865600FF3FD6 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -192,155 +169,132 @@
 			);
 			name = "Ecwid Plus";
 			productName = "Ecwid Plus";
-			productReference = A7D097C117B1B4D1000DD487 /* Ecwid Plus.app */;
+			productReference = A7F7226617B2865600FF3FD6 /* Ecwid Plus.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A7D097E017B1B4D1000DD487 /* Ecwid PlusTests */ = {
+		A7F7228617B2865600FF3FD6 /* Ecwid PlusTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A7D097F617B1B4D1000DD487 /* Build configuration list for PBXNativeTarget "Ecwid PlusTests" */;
+			buildConfigurationList = A7F7229B17B2865600FF3FD6 /* Build configuration list for PBXNativeTarget "Ecwid PlusTests" */;
 			buildPhases = (
-				A7D097DD17B1B4D1000DD487 /* Sources */,
-				A7D097DE17B1B4D1000DD487 /* Frameworks */,
-				A7D097DF17B1B4D1000DD487 /* Resources */,
+				A7F7228317B2865600FF3FD6 /* Sources */,
+				A7F7228417B2865600FF3FD6 /* Frameworks */,
+				A7F7228517B2865600FF3FD6 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A7D097E817B1B4D1000DD487 /* PBXTargetDependency */,
+				A7F7228D17B2865600FF3FD6 /* PBXTargetDependency */,
 			);
 			name = "Ecwid PlusTests";
 			productName = "Ecwid PlusTests";
-			productReference = A7D097E117B1B4D1000DD487 /* Ecwid PlusTests.xctest */;
+			productReference = A7F7228717B2865600FF3FD6 /* Ecwid PlusTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A7D097B917B1B4D1000DD487 /* Project object */ = {
+		A7F7225E17B2865600FF3FD6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = EPLUS;
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = ceili;
 				TargetAttributes = {
-					A7D097E017B1B4D1000DD487 = {
-						TestTargetID = A7D097C017B1B4D1000DD487;
+					A7F7228617B2865600FF3FD6 = {
+						TestTargetID = A7F7226517B2865600FF3FD6;
 					};
 				};
 			};
-			buildConfigurationList = A7D097BC17B1B4D1000DD487 /* Build configuration list for PBXProject "Ecwid Plus" */;
+			buildConfigurationList = A7F7226117B2865600FF3FD6 /* Build configuration list for PBXProject "Ecwid Plus" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
-			mainGroup = A7D097B817B1B4D1000DD487;
-			productRefGroup = A7D097C217B1B4D1000DD487 /* Products */;
+			mainGroup = A7F7225D17B2865600FF3FD6;
+			productRefGroup = A7F7226717B2865600FF3FD6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A7D097C017B1B4D1000DD487 /* Ecwid Plus */,
-				A7D097E017B1B4D1000DD487 /* Ecwid PlusTests */,
+				A7F7226517B2865600FF3FD6 /* Ecwid Plus */,
+				A7F7228617B2865600FF3FD6 /* Ecwid PlusTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A7D097BF17B1B4D1000DD487 /* Resources */ = {
+		A7F7226417B2865600FF3FD6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7D097D117B1B4D1000DD487 /* InfoPlist.strings in Resources */,
-				A7D097DC17B1B4D1000DD487 /* Images.xcassets in Resources */,
+				A7F7228217B2865600FF3FD6 /* Images.xcassets in Resources */,
+				A7F7227417B2865600FF3FD6 /* InfoPlist.strings in Resources */,
+				A7F7227D17B2865600FF3FD6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A7D097DF17B1B4D1000DD487 /* Resources */ = {
+		A7F7228517B2865600FF3FD6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7D097EE17B1B4D1000DD487 /* InfoPlist.strings in Resources */,
+				A7F7229317B2865600FF3FD6 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		D3E479CA7B2E4BB6BE651850 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E1EBAE739A7C4E6A897E24D9 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		A7D097BD17B1B4D1000DD487 /* Sources */ = {
+		A7F7226217B2865600FF3FD6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7D097D717B1B4D1000DD487 /* EPLUSAppDelegate.m in Sources */,
-				A7D097D317B1B4D1000DD487 /* main.m in Sources */,
-				A7D097DA17B1B4D1000DD487 /* Ecwid_Plus.xcdatamodeld in Sources */,
+				A7F7227A17B2865600FF3FD6 /* EPLUSAppDelegate.m in Sources */,
+				A7F7228017B2865600FF3FD6 /* EPLUSViewController.m in Sources */,
+				A7F7227617B2865600FF3FD6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A7D097DD17B1B4D1000DD487 /* Sources */ = {
+		A7F7228317B2865600FF3FD6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7D097F017B1B4D1000DD487 /* Ecwid_PlusTests.m in Sources */,
+				A7F7229517B2865600FF3FD6 /* Ecwid_PlusTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A7D097E817B1B4D1000DD487 /* PBXTargetDependency */ = {
+		A7F7228D17B2865600FF3FD6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A7D097C017B1B4D1000DD487 /* Ecwid Plus */;
-			targetProxy = A7D097E717B1B4D1000DD487 /* PBXContainerItemProxy */;
+			target = A7F7226517B2865600FF3FD6 /* Ecwid Plus */;
+			targetProxy = A7F7228C17B2865600FF3FD6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A7D097CF17B1B4D1000DD487 /* InfoPlist.strings */ = {
+		A7F7227217B2865600FF3FD6 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A7D097D017B1B4D1000DD487 /* en */,
+				A7F7227317B2865600FF3FD6 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		A7D097EC17B1B4D1000DD487 /* InfoPlist.strings */ = {
+		A7F7227B17B2865600FF3FD6 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A7D097ED17B1B4D1000DD487 /* en */,
+				A7F7227C17B2865600FF3FD6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A7F7229117B2865600FF3FD6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7F7229217B2865600FF3FD6 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -348,7 +302,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		A7D097F117B1B4D1000DD487 /* Debug */ = {
+		A7F7229617B2865600FF3FD6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -385,7 +339,7 @@
 			};
 			name = Debug;
 		};
-		A7D097F217B1B4D1000DD487 /* Release */ = {
+		A7F7229717B2865600FF3FD6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -416,9 +370,8 @@
 			};
 			name = Release;
 		};
-		A7D097F417B1B4D1000DD487 /* Debug */ = {
+		A7F7229917B2865600FF3FD6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 885C03CAE84147D9AD17CF3E /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -430,9 +383,8 @@
 			};
 			name = Debug;
 		};
-		A7D097F517B1B4D1000DD487 /* Release */ = {
+		A7F7229A17B2865600FF3FD6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 885C03CAE84147D9AD17CF3E /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -444,7 +396,7 @@
 			};
 			name = Release;
 		};
-		A7D097F717B1B4D1000DD487 /* Debug */ = {
+		A7F7229C17B2865600FF3FD6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Ecwid Plus.app/Ecwid Plus";
@@ -466,7 +418,7 @@
 			};
 			name = Debug;
 		};
-		A7D097F817B1B4D1000DD487 /* Release */ = {
+		A7F7229D17B2865600FF3FD6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Ecwid Plus.app/Ecwid Plus";
@@ -487,47 +439,32 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A7D097BC17B1B4D1000DD487 /* Build configuration list for PBXProject "Ecwid Plus" */ = {
+		A7F7226117B2865600FF3FD6 /* Build configuration list for PBXProject "Ecwid Plus" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A7D097F117B1B4D1000DD487 /* Debug */,
-				A7D097F217B1B4D1000DD487 /* Release */,
+				A7F7229617B2865600FF3FD6 /* Debug */,
+				A7F7229717B2865600FF3FD6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A7D097F317B1B4D1000DD487 /* Build configuration list for PBXNativeTarget "Ecwid Plus" */ = {
+		A7F7229817B2865600FF3FD6 /* Build configuration list for PBXNativeTarget "Ecwid Plus" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A7D097F417B1B4D1000DD487 /* Debug */,
-				A7D097F517B1B4D1000DD487 /* Release */,
+				A7F7229917B2865600FF3FD6 /* Debug */,
+				A7F7229A17B2865600FF3FD6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
-		A7D097F617B1B4D1000DD487 /* Build configuration list for PBXNativeTarget "Ecwid PlusTests" */ = {
+		A7F7229B17B2865600FF3FD6 /* Build configuration list for PBXNativeTarget "Ecwid PlusTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A7D097F717B1B4D1000DD487 /* Debug */,
-				A7D097F817B1B4D1000DD487 /* Release */,
+				A7F7229C17B2865600FF3FD6 /* Debug */,
+				A7F7229D17B2865600FF3FD6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		A7D097D817B1B4D1000DD487 /* Ecwid_Plus.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				A7D097D917B1B4D1000DD487 /* Ecwid_Plus.xcdatamodel */,
-			);
-			currentVersion = A7D097D917B1B4D1000DD487 /* Ecwid_Plus.xcdatamodel */;
-			path = Ecwid_Plus.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
-	rootObject = A7D097B917B1B4D1000DD487 /* Project object */;
+	rootObject = A7F7225E17B2865600FF3FD6 /* Project object */;
 }

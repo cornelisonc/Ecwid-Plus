@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A7D097C017B1B4D1000DD487"
+               BlueprintIdentifier = "A7F7226517B2865600FF3FD6"
                BuildableName = "Ecwid Plus.app"
                BlueprintName = "Ecwid Plus"
                ReferencedContainer = "container:Ecwid Plus.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A7D097E017B1B4D1000DD487"
+               BlueprintIdentifier = "A7F7228617B2865600FF3FD6"
                BuildableName = "Ecwid PlusTests.xctest"
                BlueprintName = "Ecwid PlusTests"
                ReferencedContainer = "container:Ecwid Plus.xcodeproj">
@@ -42,7 +42,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A7D097C017B1B4D1000DD487"
+            BlueprintIdentifier = "A7F7226517B2865600FF3FD6"
             BuildableName = "Ecwid Plus.app"
             BlueprintName = "Ecwid Plus"
             ReferencedContainer = "container:Ecwid Plus.xcodeproj">
@@ -61,7 +61,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A7D097C017B1B4D1000DD487"
+            BlueprintIdentifier = "A7F7226517B2865600FF3FD6"
             BuildableName = "Ecwid Plus.app"
             BlueprintName = "Ecwid Plus"
             ReferencedContainer = "container:Ecwid Plus.xcodeproj">
@@ -79,7 +79,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A7D097C017B1B4D1000DD487"
+            BlueprintIdentifier = "A7F7226517B2865600FF3FD6"
             BuildableName = "Ecwid Plus.app"
             BlueprintName = "Ecwid Plus"
             ReferencedContainer = "container:Ecwid Plus.xcodeproj">
