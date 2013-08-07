@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>216D2E8E-8F6A-404A-9E3F-1376D3BE2B7F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Ecwid Plus</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>3CF7D84C-7F71-4657-B09C-CF72C3C6BAAD</key>
+		<string>ssh://github.com/cornelisonc/Ecwid-Plus.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Ecwid Plus/Ecwid Plus.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>3CF7D84C-7F71-4657-B09C-CF72C3C6BAAD</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/cornelisonc/Ecwid-Plus.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>3CF7D84C-7F71-4657-B09C-CF72C3C6BAAD</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>3CF7D84C-7F71-4657-B09C-CF72C3C6BAAD</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Ecwid-Plus</string>
+		</dict>
+	</array>
+</dict>
+</plist>
