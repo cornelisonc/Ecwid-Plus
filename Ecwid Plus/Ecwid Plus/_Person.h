@@ -2,6 +2,7 @@
 // Make changes to Person.h instead.
 
 #import <CoreData/CoreData.h>
+#import "NSManagedObject.h"
 
 extern const struct PersonAttributes {
 	__unsafe_unretained NSString *name;

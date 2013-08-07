@@ -2,6 +2,7 @@
 // Make changes to Order.h instead.
 
 #import <CoreData/CoreData.h>
+#import "NSManagedObject.h"
 
 extern const struct OrderAttributes {
 	__unsafe_unretained NSString *number;

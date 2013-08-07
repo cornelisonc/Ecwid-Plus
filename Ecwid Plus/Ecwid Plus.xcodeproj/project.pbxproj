@@ -340,7 +340,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "cd Ecwid\\ Plus\nmogenerator --model RemoteObject.xcdatamodeld/RemoteObject.xcdatamodel --output-dir /CoreData/ --template-var arc=true\n";
+			shellScript = "cd Ecwid\\ Plus\nmogenerator --model RemoteObject.xcdatamodeld/RemoteObject.xcdatamodel --template-var arc=true\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
