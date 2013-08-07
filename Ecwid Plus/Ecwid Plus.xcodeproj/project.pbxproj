@@ -21,6 +21,7 @@
 		A7F7229317B2865600FF3FD6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A7F7229117B2865600FF3FD6 /* InfoPlist.strings */; };
 		A7F7229517B2865600FF3FD6 /* Ecwid_PlusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F7229417B2865600FF3FD6 /* Ecwid_PlusTests.m */; };
 		A7F722A717B289A700FF3FD6 /* EPLUSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F722A617B2889C00FF3FD6 /* EPLUSViewController.m */; };
+		A7F722AA17B28BA700FF3FD6 /* RemoteObject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A7F722A817B28BA700FF3FD6 /* RemoteObject.xcdatamodeld */; };
 		BC3D5FA95D984E0D846EC288 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 564755A9E5034B8AA2227DAB /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +57,7 @@
 		A7F7229417B2865600FF3FD6 /* Ecwid_PlusTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ecwid_PlusTests.m; sourceTree = "<group>"; };
 		A7F722A517B2889C00FF3FD6 /* EPLUSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EPLUSViewController.h; sourceTree = "<group>"; };
 		A7F722A617B2889C00FF3FD6 /* EPLUSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EPLUSViewController.m; sourceTree = "<group>"; };
+		A7F722A917B28BA700FF3FD6 /* RemoteObject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RemoteObject.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +126,7 @@
 				A7F7227B17B2865600FF3FD6 /* Main.storyboard */,
 				A7F7228117B2865600FF3FD6 /* Images.xcassets */,
 				A7F7227017B2865600FF3FD6 /* Supporting Files */,
+				A7F722A817B28BA700FF3FD6 /* RemoteObject.xcdatamodeld */,
 			);
 			path = "Ecwid Plus";
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 				A7F7226317B2865600FF3FD6 /* Frameworks */,
 				A7F7226417B2865600FF3FD6 /* Resources */,
 				91B9474A09214CA3A2C0A7CB /* Copy Pods Resources */,
+				A7F93B9F17B2A4A4004EC684 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -292,6 +296,19 @@
 			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		A7F93B9F17B2A4A4004EC684 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "mogenerator --model \"${PROJECT_DIR}/RemoteObject.xcdatamodeld\" --output-dir \"{PROJECT_DIR}/\" --template-var arc=true";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -299,6 +316,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7F722AA17B28BA700FF3FD6 /* RemoteObject.xcdatamodeld in Sources */,
 				A7F7227A17B2865600FF3FD6 /* EPLUSAppDelegate.m in Sources */,
 				A7F722A717B289A700FF3FD6 /* EPLUSViewController.m in Sources */,
 				A7F7227617B2865600FF3FD6 /* main.m in Sources */,
@@ -518,6 +536,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A7F722A817B28BA700FF3FD6 /* RemoteObject.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A7F722A917B28BA700FF3FD6 /* RemoteObject.xcdatamodel */,
+			);
+			currentVersion = A7F722A917B28BA700FF3FD6 /* RemoteObject.xcdatamodel */;
+			path = RemoteObject.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = A7F7225E17B2865600FF3FD6 /* Project object */;
 }
