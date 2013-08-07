@@ -6,22 +6,12 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXAggregateTarget section */
-		A788BFAF17B2A84900498A66 /* Mogenerator */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = A788BFB217B2A84900498A66 /* Build configuration list for PBXAggregateTarget "Mogenerator" */;
-			buildPhases = (
-				A788BFB517B2A85E00498A66 /* ShellScript */,
-			);
-			dependencies = (
-				A788BFB117B2A84900498A66 /* PBXTargetDependency */,
-			);
-			name = Mogenerator;
-			productName = Mogenerator;
-		};
-/* End PBXAggregateTarget section */
-
 /* Begin PBXBuildFile section */
+		A7B290FB17B2B32200CF2A33 /* _Order.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B290F417B2B32200CF2A33 /* _Order.m */; };
+		A7B290FC17B2B32200CF2A33 /* _Person.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B290F617B2B32200CF2A33 /* _Person.m */; };
+		A7B290FD17B2B32200CF2A33 /* Order.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B290F817B2B32200CF2A33 /* Order.m */; };
+		A7B290FE17B2B32200CF2A33 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B290FA17B2B32200CF2A33 /* Person.m */; };
+		A7B2910017B2B3C900CF2A33 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7B290FF17B2B3C900CF2A33 /* CoreData.framework */; };
 		A7F7226A17B2865600FF3FD6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7F7226917B2865600FF3FD6 /* Foundation.framework */; };
 		A7F7226C17B2865600FF3FD6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7F7226B17B2865600FF3FD6 /* CoreGraphics.framework */; };
 		A7F7226E17B2865600FF3FD6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7F7226D17B2865600FF3FD6 /* UIKit.framework */; };
@@ -41,13 +31,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A788BFB017B2A84900498A66 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A7F7225E17B2865600FF3FD6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A7F7226517B2865600FF3FD6;
-			remoteInfo = "Ecwid Plus";
-		};
 		A7F7228C17B2865600FF3FD6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A7F7225E17B2865600FF3FD6 /* Project object */;
@@ -60,6 +43,15 @@
 /* Begin PBXFileReference section */
 		564755A9E5034B8AA2227DAB /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A042FA3A0EAD45D792D1B16F /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		A7B290F317B2B32200CF2A33 /* _Order.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = _Order.h; path = CoreData/_Order.h; sourceTree = "<group>"; };
+		A7B290F417B2B32200CF2A33 /* _Order.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = _Order.m; path = CoreData/_Order.m; sourceTree = "<group>"; };
+		A7B290F517B2B32200CF2A33 /* _Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = _Person.h; path = CoreData/_Person.h; sourceTree = "<group>"; };
+		A7B290F617B2B32200CF2A33 /* _Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = _Person.m; path = CoreData/_Person.m; sourceTree = "<group>"; };
+		A7B290F717B2B32200CF2A33 /* Order.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Order.h; path = CoreData/Order.h; sourceTree = "<group>"; };
+		A7B290F817B2B32200CF2A33 /* Order.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Order.m; path = CoreData/Order.m; sourceTree = "<group>"; };
+		A7B290F917B2B32200CF2A33 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Person.h; path = CoreData/Person.h; sourceTree = "<group>"; };
+		A7B290FA17B2B32200CF2A33 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Person.m; path = CoreData/Person.m; sourceTree = "<group>"; };
+		A7B290FF17B2B3C900CF2A33 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		A7F7226617B2865600FF3FD6 /* Ecwid Plus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ecwid Plus.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7F7226917B2865600FF3FD6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A7F7226B17B2865600FF3FD6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -87,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7B2910017B2B3C900CF2A33 /* CoreData.framework in Frameworks */,
 				A7F7226C17B2865600FF3FD6 /* CoreGraphics.framework in Frameworks */,
 				A7F7226E17B2865600FF3FD6 /* UIKit.framework in Frameworks */,
 				A7F7226A17B2865600FF3FD6 /* Foundation.framework in Frameworks */,
@@ -107,10 +100,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A7B290E817B2ACD400CF2A33 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				A7B290F317B2B32200CF2A33 /* _Order.h */,
+				A7B290F417B2B32200CF2A33 /* _Order.m */,
+				A7B290F517B2B32200CF2A33 /* _Person.h */,
+				A7B290F617B2B32200CF2A33 /* _Person.m */,
+				A7B290F717B2B32200CF2A33 /* Order.h */,
+				A7B290F817B2B32200CF2A33 /* Order.m */,
+				A7B290F917B2B32200CF2A33 /* Person.h */,
+				A7B290FA17B2B32200CF2A33 /* Person.m */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
 		A7F7225D17B2865600FF3FD6 = {
 			isa = PBXGroup;
 			children = (
-				A7F7226F17B2865600FF3FD6 /* Ecwid Plus */,
+				A7F7226F17B2865600FF3FD6 /* Ecwid-Plus */,
 				A7F7228E17B2865600FF3FD6 /* Ecwid PlusTests */,
 				A7F7226817B2865600FF3FD6 /* Frameworks */,
 				A7F7226717B2865600FF3FD6 /* Products */,
@@ -130,6 +138,7 @@
 		A7F7226817B2865600FF3FD6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A7B290FF17B2B3C900CF2A33 /* CoreData.framework */,
 				A7F7226917B2865600FF3FD6 /* Foundation.framework */,
 				A7F7226B17B2865600FF3FD6 /* CoreGraphics.framework */,
 				A7F7226D17B2865600FF3FD6 /* UIKit.framework */,
@@ -139,9 +148,10 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		A7F7226F17B2865600FF3FD6 /* Ecwid Plus */ = {
+		A7F7226F17B2865600FF3FD6 /* Ecwid-Plus */ = {
 			isa = PBXGroup;
 			children = (
+				A7B290E817B2ACD400CF2A33 /* CoreData */,
 				A7F7229E17B2883100FF3FD6 /* View Controllers */,
 				A7F7227817B2865600FF3FD6 /* EPLUSAppDelegate.h */,
 				A7F7227917B2865600FF3FD6 /* EPLUSAppDelegate.m */,
@@ -150,6 +160,7 @@
 				A7F7227017B2865600FF3FD6 /* Supporting Files */,
 				A7F722A817B28BA700FF3FD6 /* RemoteObject.xcdatamodeld */,
 			);
+			name = "Ecwid-Plus";
 			path = "Ecwid Plus";
 			sourceTree = "<group>";
 		};
@@ -242,9 +253,6 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = ceili;
 				TargetAttributes = {
-					A788BFAF17B2A84900498A66 = {
-						TestTargetID = A7F7226517B2865600FF3FD6;
-					};
 					A7F7228617B2865600FF3FD6 = {
 						TestTargetID = A7F7226517B2865600FF3FD6;
 					};
@@ -265,7 +273,6 @@
 			targets = (
 				A7F7226517B2865600FF3FD6 /* Ecwid Plus */,
 				A7F7228617B2865600FF3FD6 /* Ecwid PlusTests */,
-				A788BFAF17B2A84900498A66 /* Mogenerator */,
 			);
 		};
 /* End PBXProject section */
@@ -322,19 +329,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A788BFB517B2A85E00498A66 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "cd Ecwid\\ Plus\nmogenerator -m RemoteObject.xcdatamodeld/RemoteObject.xcdatamodel/";
-		};
 		A7F93B9F17B2A4A4004EC684 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -346,7 +340,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "";
+			shellScript = "cd Ecwid\\ Plus\nmogenerator --model RemoteObject.xcdatamodeld/RemoteObject.xcdatamodel --output-dir /CoreData/ --template-var arc=true\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -357,7 +351,11 @@
 			files = (
 				A7F722AA17B28BA700FF3FD6 /* RemoteObject.xcdatamodeld in Sources */,
 				A7F7227A17B2865600FF3FD6 /* EPLUSAppDelegate.m in Sources */,
+				A7B290FE17B2B32200CF2A33 /* Person.m in Sources */,
 				A7F722A717B289A700FF3FD6 /* EPLUSViewController.m in Sources */,
+				A7B290FB17B2B32200CF2A33 /* _Order.m in Sources */,
+				A7B290FD17B2B32200CF2A33 /* Order.m in Sources */,
+				A7B290FC17B2B32200CF2A33 /* _Person.m in Sources */,
 				A7F7227617B2865600FF3FD6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -373,11 +371,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A788BFB117B2A84900498A66 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A7F7226517B2865600FF3FD6 /* Ecwid Plus */;
-			targetProxy = A788BFB017B2A84900498A66 /* PBXContainerItemProxy */;
-		};
 		A7F7228D17B2865600FF3FD6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = A7F7226517B2865600FF3FD6 /* Ecwid Plus */;
@@ -413,24 +406,6 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		A788BFB317B2A84900498A66 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Ecwid Plus.app/Ecwid Plus";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-			};
-			name = Debug;
-		};
-		A788BFB417B2A84900498A66 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Ecwid Plus.app/Ecwid Plus";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-			};
-			name = Release;
-		};
 		A7F7229617B2865600FF3FD6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -570,14 +545,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A788BFB217B2A84900498A66 /* Build configuration list for PBXAggregateTarget "Mogenerator" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A788BFB317B2A84900498A66 /* Debug */,
-				A788BFB417B2A84900498A66 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
 		A7F7226117B2865600FF3FD6 /* Build configuration list for PBXProject "Ecwid Plus" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
